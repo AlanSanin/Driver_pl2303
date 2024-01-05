@@ -1,4 +1,4 @@
-obj-m := CONFIG_USB_SERIAL_PL2303_common.0
+obj-m := pl2023_common.0
 
 KERNELDIR ?= /lib/modules/$(shell uname -r)/build
 PWD       := $(shell pwd)
